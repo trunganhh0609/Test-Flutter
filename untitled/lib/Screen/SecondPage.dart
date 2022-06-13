@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:untitled/DetailPage.dart';
-import 'package:untitled/EmpListController.dart';
-import 'package:untitled/Employee.dart';
+import 'package:untitled/Screen/DetailPage.dart';
+import 'package:untitled/Controller/EmpListController.dart';
+import 'package:untitled/Model/Employee.dart';
 
 class SecondPage extends StatelessWidget {
   final EmpListController empCtrll = Get.find();

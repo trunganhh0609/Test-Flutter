@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-import 'package:untitled/EmpListController.dart';
-import 'package:untitled/Employee.dart';
-import 'package:untitled/SecondPage.dart';
+import 'package:untitled/Controller/EmpListController.dart';
+import 'package:untitled/Model/Employee.dart';
+import 'package:untitled/Screen/SecondPage.dart';
 
 class MyApp extends StatefulWidget {
   @override
@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
       title: "First App",
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Employee Management'),
+          title: const Text('Employee Management'),
         ),
         body: SafeArea(
           child: Column(
